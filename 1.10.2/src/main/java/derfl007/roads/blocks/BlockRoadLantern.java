@@ -25,6 +25,8 @@ public class BlockRoadLantern extends Block {
 		setRegistryName("BlockRoadLantern");
 		setCreativeTab(Roads.ROADS_TAB);
 		setLightLevel(1.0F);
+        setHardness(1.5F);
+        setResistance(10F);
 	}
 
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;

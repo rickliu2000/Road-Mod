@@ -35,6 +35,8 @@ public class BlockRoadRotatable extends Block {
 		setUnlocalizedName(unlocalizedName);
 		setRegistryName(registryName);
 		setCreativeTab(Roads.ROADS_TAB);
+        setHardness(1.5F);
+        setResistance(10F);
 	}
 	
     protected static final AxisAlignedBB AABB_QTR_TOP_WEST = new AxisAlignedBB(0.0D, 0.3125D, 0.0D, 0.5D, 0.8125D, 1.0D);

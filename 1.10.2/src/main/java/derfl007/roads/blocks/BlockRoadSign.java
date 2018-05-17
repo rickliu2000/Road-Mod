@@ -27,6 +27,8 @@ public class BlockRoadSign extends Block {
 		this.setUnlocalizedName(unlocalizedName);
 		this.setRegistryName(registryName);
 		setCreativeTab(Roads.ROADS_TAB);
+        setHardness(1.5F);
+        setResistance(10F);
 	}
 
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;

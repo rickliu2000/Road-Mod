@@ -15,6 +15,8 @@ public class BlockRoad extends Block {
 		setUnlocalizedName(unlocalizedName);
 		setRegistryName(registryName);
 		setCreativeTab(Roads.ROADS_TAB);
+        setHardness(1.5F);
+        setResistance(10F);
 	}
 
 	@Override

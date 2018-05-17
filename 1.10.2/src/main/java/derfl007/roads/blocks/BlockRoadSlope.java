@@ -141,6 +141,8 @@ public class BlockRoadSlope extends Block {
         this.setUnlocalizedName(unlocalizedName);
         this.setRegistryName(registryName);
         this.setCreativeTab(Roads.ROADS_TAB);
+        this.setHardness(1.5F);
+        this.setResistance(10F);
     }
 
     public void addCollisionBoxToList(IBlockState state, World worldIn, BlockPos pos, AxisAlignedBB entityBox, List<AxisAlignedBB> collidingBoxes, @Nullable Entity entityIn)

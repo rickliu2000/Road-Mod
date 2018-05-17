@@ -40,6 +40,8 @@ public class BlockRoadSidewalkCurb extends Block {
 		setRegistryName("BlockRoadSidewalkCurb");
 		setUnlocalizedName("road_sidewalk_curb");
 		setCreativeTab(Roads.ROADS_TAB);
+        setHardness(1.5F);
+        setResistance(10F);
 	}
 
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;

@@ -21,6 +21,8 @@ public class BlockRoadFullRotatable extends Block {
 		setUnlocalizedName(unlocalizedName);
 		setRegistryName(registryName);
 		setCreativeTab(Roads.ROADS_TAB);
+        setHardness(1.5F);
+        setResistance(10F);
 	}
 
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;

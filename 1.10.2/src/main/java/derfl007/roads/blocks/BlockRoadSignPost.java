@@ -30,6 +30,8 @@ public class BlockRoadSignPost extends Block {
 				.withProperty(EAST, Boolean.valueOf(false)).withProperty(SOUTH, Boolean.valueOf(false))
 				.withProperty(WEST, Boolean.valueOf(false)));
 		setCreativeTab(Roads.ROADS_TAB);
+        setHardness(1.5F);
+        setResistance(10F);
 	}
 
 	@Override

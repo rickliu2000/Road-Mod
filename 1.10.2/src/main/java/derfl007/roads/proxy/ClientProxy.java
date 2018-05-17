@@ -1,6 +1,5 @@
 package derfl007.roads.proxy;
 
-import derfl007.roads.entities.EntityCar;
 import derfl007.roads.init.RoadBlocks;
 import derfl007.roads.init.RoadItems;
 import net.minecraft.client.model.ModelMinecart;

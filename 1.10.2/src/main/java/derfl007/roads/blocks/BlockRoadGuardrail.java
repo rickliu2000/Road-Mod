@@ -30,6 +30,8 @@ public class BlockRoadGuardrail extends Block {
 		setRegistryName("BlockRoadGuardrail");
 		setUnlocalizedName("road_guardrail");
 		setCreativeTab(Roads.ROADS_TAB);
+        setHardness(1.5F);
+        setResistance(10F);
 	}
 
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
